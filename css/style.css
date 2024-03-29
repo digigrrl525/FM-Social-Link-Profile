@@ -1,0 +1,85 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+    --green: hsl(75, 94%, 57%);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: var(--off-black);
+    color: var(--white);
+    width: 400px;
+    height: auto;
+    margin: 200px auto;
+    text-align: center;
+}
+
+main {
+    background-color: var(--dark-grey);
+    border-radius: 16px;
+    padding: 40px;
+}
+
+img {
+    border-radius: 100%;
+    width: 36%;
+}
+
+h1 {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-weight: 600;
+    color: var(--green);
+    font-size: 12px;
+}
+
+p {
+    margin: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+    padding: 12px;
+    margin: 12px 0;
+    font-weight: 600;
+    background-color: var(--grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+button:hover {
+    color: var(--dark-grey);
+    background-color: var(--green);
+    cursor: pointer;
+}
+
+.attribution { margin-top: 40px; font-size: 11px; text-align: center; }
+.attribution a { color: var(--green) }
+
+@media screen and (max-width: 375px) {
+    body {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    p {
+        font-size: 12px;
+        margin: 20px 0;
+    }
+}
