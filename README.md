@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/fmsociallinkprofile-N3f95m59P3](https://www.frontendmentor.io/solutions/fmsociallinkprofile-N3f95m59P3)
 - Live Site URL: [https://digigrrl525.github.io/FM-Social-Link-Profile/](https://digigrrl525.github.io/FM-Social-Link-Profile/)
 
 ## My process
